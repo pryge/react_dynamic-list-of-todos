@@ -12,7 +12,7 @@ import { Todo } from './types/Todo';
 import { User } from './types/User';
 
 export const App: React.FC = () => {
-  const isTesting = false;
+  const isTesting = true;
 
   const [todos, setTodos] = useState<Todo[]>([]);
   const [loading, setLoading] = useState(true);
